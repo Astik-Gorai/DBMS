@@ -1,0 +1,1 @@
+select distinct(driver_name) from Truck,Shipment where Truck.track_no= Shipment.truck_no and weight>20;

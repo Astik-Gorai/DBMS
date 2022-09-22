@@ -1,0 +1,1 @@
+select distinct(city_name),population from Shipment,City where destination=city_name and weight>10;

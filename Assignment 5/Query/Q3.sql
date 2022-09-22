@@ -1,0 +1,1 @@
+select max(weight) as 'Max_Weight', min(weight) as 'Min_Weight' from Shipment;

@@ -1,0 +1,1 @@
+select distinct(cust_name),avg(weight) from Shipment,Customer where Shipment.cust_id=Customer.cust_id group by cust_name;

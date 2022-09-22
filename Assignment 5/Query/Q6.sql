@@ -1,0 +1,1 @@
+select destination from Shipment group by destination having count(distinct cust_id)=(select count(cust_id) from Customer);
